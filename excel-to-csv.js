@@ -17,7 +17,7 @@ for(var i = 0; i < obj.length; i++)
         //add the row to the rows array
         rows.push(sheet['data'][j]);
     }
-
+	
 	stringify(rows, saveTofile(sheet.name));
 
 	function saveTofile(sheetN){
